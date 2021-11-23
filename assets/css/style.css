@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #fff;
+  background-color: #040404;
   color: #fff;
   position: relative;
   background: transparent;
@@ -19,7 +19,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #FFF url("../img/bg.jpg") top right no-repeat;
+  background: #040404 url("../img/bg.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -1078,7 +1078,7 @@ section .container {
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
-  background: #fff;
+  background: rgba(0, 0, 0, 0.8);
   position: fixed;
   left: 0;
   right: 0;
@@ -1166,7 +1166,7 @@ section .container {
   .credits {
     text-align: center;
     padding: 10px;
-    background: #fff;
+    background: rgba(0, 0, 0, 0.8);
   }
 }
 
